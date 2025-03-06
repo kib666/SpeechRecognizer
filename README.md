@@ -7,29 +7,26 @@
 ✅ Error handling – Displays appropriate error messages when recognition fails.
 ✅ Retry mechanism – If an error occurs, the button switches to "Try Again".
 ✅ Microphone permissions – Requests runtime permissions for smooth operation.
-
 📂 Project Structure
-swift
-Copy
-Edit
 📦 SpeechToTextApp
- ┣ 📂 app/src/main/java/com/example/speechtotextapp
- ┃ ┣ 📜 MainActivity.java
- ┃ ┣ 📜 SpeechRecognizerHelper.java (optional)
- ┣ 📂 res/layout
- ┃ ┣ 📜 activity_main.xml
- ┣ 📂 res/drawable
- ┃ ┣ 📜 textview_border.xml
- ┣ 📂 manifests
- ┃ ┣ 📜 AndroidManifest.xml
- ┣ 📜 README.md
+┣ 📂 app/src/main/java/com/example/speechtotextapp
+┃ ┣ 📜 MainActivity.java
+┃ ┣ 📜 SpeechRecognizerHelper.java (optional)
+┣ 📂 res/layout
+┃ ┣ 📜 activity_main.xml
+┣ 📂 res/drawable
+┃ ┣ 📜 textview_border.xml
+┣ 📂 manifests
+┃ ┣ 📜 AndroidManifest.xml
+┣ 📜 README.md
+
 🛠️ Installation & Setup
 1️⃣ Clone the Repository
-bash
+pgsql
 Copy
 Edit
-git clone https://github.com/yourusername/speech-to-text-app.git
-cd speech-to-text-app
+git clone https://github.com/yourusername/speech-to-text-app.git  
+cd speech-to-text-app  
 2️⃣ Open in Android Studio
 File → Open → Select speech-to-text-app folder.
 Wait for Gradle Sync to complete.
@@ -43,15 +40,14 @@ Wait for Gradle Sync to complete.
 4️⃣ If an error occurs, the button switches to "Try Again".
 
 🔧 Troubleshooting
-🔹 "bind to recognition service failed" error?
+❌ "bind to recognition service failed" error?
 👉 Install Google Speech Services from the Play Store.
 
-🔹 Live text not appearing?
+❌ Live text not appearing?
 👉 Ensure EXTRA_PARTIAL_RESULTS is enabled in startListening().
 
-🔹 App crashes on some devices?
+❌ App crashes on some devices?
 👉 Check if microphone permissions are enabled in system settings.
 
 📜 License
 This project is licensed under the MIT License. Feel free to modify and distribute it.
-

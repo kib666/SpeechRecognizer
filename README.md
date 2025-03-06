@@ -16,3 +16,46 @@ Speech-to-Text Android App is a **real-time voice recognition application** that
 ```sh
 git clone https://github.com/yourusername/speech-to-text-app.git
 cd speech-to-text-app
+
+## 2️⃣ Open the Project in Android Studio  
+- **File → Open → Select `speech-to-text-app` folder.**  
+- Wait for **Gradle Sync** to complete.  
+
+## 3️⃣ Run the App on a Real Device  
+📌 **Note:** Speech recognition may not work properly on an emulator. **Use a real Android device.**  
+
+## 🚀 Usage  
+
+- 🏆 **Tap "Speak"**: Starts speech recognition.  
+- 📝 **Live Transcription**: Words appear as you speak.  
+- 🎯 **Final Text Display**: Once speech ends, the final recognized text replaces partial results.  
+- ❌ **Error Handling**: If recognition fails, the button changes to **"Try Again"** for easy retry.  
+
+## 🛠️ Technologies Used  
+
+- 📱 **Android SDK**: Native Android development.  
+- 🗣 **SpeechRecognizer API**: Enables real-time speech-to-text functionality.  
+- 🎨 **XML Layouts**: Used for designing UI components.  
+- 📏 **ConstraintLayout & LinearLayout**: Ensures a responsive and structured interface.  
+- 🔐 **Runtime Permissions**: Handles microphone access requests for better security.  
+
+## 🔮 Future Improvements  
+
+- 🔄 **Continuous Listening Mode**: Keep the app listening indefinitely for real-time dictation.  
+- 🌍 **Multi-Language Support**: Enable speech recognition for multiple languages.  
+- ⚙ **User Settings**: Customize speech recognition preferences.  
+
+## 🔧 Troubleshooting  
+
+### ❌ `"bind to recognition service failed"` error?  
+👉 Install **Google Speech Services** from the Play Store.  
+
+### ❌ Live text not appearing?  
+👉 Ensure `EXTRA_PARTIAL_RESULTS` is enabled in `startListening()`.  
+
+### ❌ App crashes on some devices?  
+👉 Check if **microphone permissions** are enabled in system settings.  
+
+## 📜 License  
+
+This project is licensed under the **MIT License**. Feel free to contribute and improve the application!  

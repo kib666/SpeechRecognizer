@@ -16,6 +16,7 @@ Speech-to-Text Android App is a **real-time voice recognition application** that
 ```sh
 git clone https://github.com/yourusername/speech-to-text-app.git
 cd speech-to-text-app
+```
 
 ## 2️⃣ Open the Project in Android Studio  
 - **File → Open → Select `speech-to-text-app` folder.**  
